@@ -66,7 +66,8 @@ $.getJSON(url, function (data)
 
 
 		destination.innerHTML = 
-		`<h3>State: ${json[index].state}</h3>
+		`<h3>Updates</h3>
+		<h3>State: ${json[index].state}</h3>
 		<h3>Cases: ${json[index].cases}</h3>
 		<h3>Today's Cases: ${json[index].todayCases}</h3>
 		<h3>Deaths: ${json[index].deaths}</h3>
