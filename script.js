@@ -5,7 +5,7 @@ window.addEventListener("load", function()
 
 
 let dropdown = $('#state-dropdown');
-const url = 'https://corona.lmao.ninja/states';
+const url = 'https://corona.lmao.ninja/v2/states';
 
 
 
@@ -39,7 +39,7 @@ $.getJSON(url, function (data)
 
             
 
-            fetch("https://corona.lmao.ninja/states").then( function(response) {
+            fetch("https://corona.lmao.ninja/v2/states").then( function(response) {
                response.json().then( function(json) {
                 const destination = document.getElementById("destination");
 		//let index = 0;
